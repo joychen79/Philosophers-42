@@ -6,7 +6,7 @@
 /*   By: jingchen <jingchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/19 19:04:28 by jingchen          #+#    #+#             */
-/*   Updated: 2024/01/19 19:04:44 by jingchen         ###   ########.fr       */
+/*   Updated: 2024/01/19 19:28:18 by jingchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,7 @@ void	*check_death(void *args)
 		if (table->death_flag == 1)
 			break ;
 		i = -1;
-		ft_usleep(1);
+		ft_usleep(300);
 	}
 	return (NULL);
 }
